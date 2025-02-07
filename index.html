@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style" />
-    <link rel="stylesheet" href="./css/media" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div class="container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="container_header">
         <picture class="header_img">
           <source srcset="./img/header/header.webp" media="(min-width: 1025px)">
           <source srcset="./img/header/header_1024.webp" media="(min-width: 769px)">
@@ -17,12 +20,31 @@
           <source srcset="./img/header/header_320.webp" media="(min-width: 320px)">
           <img src="./img/header/header.png" alt="фон заголовка">
         </picture>
+        <picture class="logo">
+          <source srcset="./img/logo.webp" media="(min-width: 769px)">
+          <source srcset="./img/logo_768.webp" media="(min-width: 320px)">
+          <img src="./img/logo.png" alt="лого заголовка">
+        </picture>
+        <h1>Conecom</h1>
+        <span class="header_span">российское подразделение французской группы DuffBeer</span>
+        <div class="vector_header"></div>
       </div>
-    </header>
-    <main>
-      <section class="hero"><div class="container"></div></section>
-      <section class="about"><div class="container"></div></section>
-      <section class="Duffbeer"><div class="container"></div></section>
-    </main>
-  </body>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="hero">
+        <div class="hero_container">
+          <div class="billet">
+          </div>
+        </div>
+      </section>
+      <section class="about">
+      </section>
+      <section class="Duffbeer">
+      </section>
+    </div>
+  </main>
+</body>
+
 </html>

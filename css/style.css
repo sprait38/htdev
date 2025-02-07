@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #f00;*/
+}
+
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: "Arial";
+    src:
+        local("Arial_Gras_Italique"),
+        url("../fonts/Arial_Gras_Italique.woff2") format("woff2"),
+        url("../fonts/Arial_Gras_Italique.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    src:
+        local("Arial_Normal"),
+        url("../fonts/Arial_Normal.woff2") format("woff2"),
+        url("../fonts/Arial_Normal.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src:
+        local("Lato-Regular"),
+        url("../fonts/Lato-Regular.woff2") format("woff2"),
+        url("../fonts/Lato-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src:
+        local("Lato-Bold"),
+        url("../fonts/Lato-Bold.woff2") format("woff2"),
+        url("../fonts/Lato-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --primary-color-body: #F7EEE5;
+    --primary-color-hero: #0A398A;
+    --primary-color-hero-fon: #FFFFFF;
+    --primary-color-text: #6C5F4A;
+    --primary-color-vector: #8A7B60;
+    --font-size-base: 18px;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", Arial;
+}
+
+/* Header */
+
+.container_header {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 1250px;
+}
+
+.header_img {
+    position: absolute;
+    width: 1250px;
+    height: 599px;
+    left: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 267px;
+    height: 103px;
+    left: 60px;
+    z-index: 1;
+}
+
+h1 {
+    width: 377px;
+    height: 80px;
+    top: 219px;
+    left: 60px;
+    position: absolute;
+    font-size: 72px;
+    line-height: 80px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    color: var(--primary-color-hero-fon);
+}
+
+.header_span {
+    width: 550px;
+    height: 72px;
+    top: 314px;
+    left: 60px;
+    position: absolute;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--primary-color-hero-fon);
+}
+
+.vector_header {
+    position: absolute;
+    width: 363px;
+    height: 368px;
+    top: 329px;
+    left: 887px;
+    display: inline-block;
+    background: var(--primary-color-body);
+    mask-image: url(../img/svg/Vector.svg);
+}
+
+/* main */
+main {
+    position: relative;
+    top: 614px;
+}
+
+/*hero*/
+.hero {
+    position: absolute;
+    top: 100px;
+}
+
+.hero_container {
+    width: 1247px;
+    height: 602px;
+}
+
+.billet {
+    width: 545px;
+    height: 367px;
+    top: 699px;
+    left: 25px;
+    position: absolute;
+    color: var(--primary-color-body);
+}
