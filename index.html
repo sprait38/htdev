@@ -1,50 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/media.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <div class="container_header">
-        <picture class="header_img">
-          <source srcset="./img/header/header.webp" media="(min-width: 1025px)">
-          <source srcset="./img/header/header_1024.webp" media="(min-width: 769px)">
-          <source srcset="./img/header/header_768.webp" media="(min-width: 621px)">
-          <source srcset="./img/header/header_320.webp" media="(min-width: 320px)">
-          <img src="./img/header/header.png" alt="фон заголовка">
-        </picture>
-        <picture class="logo">
-          <source srcset="./img/logo.webp" media="(min-width: 769px)">
-          <source srcset="./img/logo_768.webp" media="(min-width: 320px)">
-          <img src="./img/logo.png" alt="лого заголовка">
-        </picture>
-        <h1>Conecom</h1>
-        <span class="header_span">российское подразделение французской группы DuffBeer</span>
-        <div class="vector_header"></div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <section class="hero">
-        <div class="hero_container">
-          <div class="billet">
-          </div>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container_header">
+          <picture class="header_img">
+            <source
+              srcset="./img/header/header.webp"
+              media="(min-width: 1025px)"
+            />
+            <source
+              srcset="./img/header/header_1024.webp"
+              media="(min-width: 769px)"
+            />
+            <source
+              srcset="./img/header/header_768.webp"
+              media="(min-width: 621px)"
+            />
+            <source
+              srcset="./img/header/header_320.webp"
+              media="(min-width: 320px)"
+            />
+            <img src="./img/header/header.png" alt="фон заголовка" />
+          </picture>
+          <picture class="header_logo">
+            <source srcset="./img/logo.webp" media="(min-width: 769px)" />
+            <source srcset="./img/logo_768.webp" media="(min-width: 320px)" />
+            <img src="./img/logo.png" alt="лого заголовка" />
+          </picture>
+          <h1 class="header_h1">Conecom</h1>
+          <span class="header_span"
+            >российское подразделение французской группы DuffBeer</span
+          >
+          <div class="header_vector"></div>
         </div>
-      </section>
-      <section class="about">
-      </section>
-      <section class="Duffbeer">
-      </section>
-    </div>
-  </main>
-</body>
-
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="hero">
+          <div class="hero_container">
+            <div class="hero_billet"></div>
+            <div class="hero_player">
+              <iframe
+                width="545"
+                height="365"
+                src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1&mute=1"
+              >
+              </iframe>
+            </div>
+            <div class="hero_vector"></div>
+            <div class="hero_h3">лет нашего опыта</div>
+            <p class="hero_p">
+              DuffBeer — один из мировых лидеров по производству дрожжей и
+              других продуктов ферментации. И нам нужна сильная команда
+              профессионалов и единомышленников, которые будут стремиться
+              развиваться вместе с DuffBeer.
+            </p>
+            <p class="hero_p">
+              Мы всегда рады принять талантливых и целеустремленных людей в нашу
+              дружную команду! Мы ценим каждого своего сотрудника и стремимся
+              предоставить всем равные возможности в развитии и совершенств.
+            </p>
+          </div>
+        </section>
+        <section class="work">
+          <div class="work_billet">
+            <div class="work_kavichka"></div>
+            <p class="work_p">
+              Каждое 3-е хлебобулочное изделие в мире произведено с
+              использованием продукции DuffBeer
+            </p>
+            <div class="work_vector"></div>
+          </div>
+          <picture class="work_image">
+            <source srcset="./img/work/work.webp" media="(min-width: 1025px)" />
+            <source srcset="./img/work/work_1024.webp" media="(min-width: 769px)" />
+            <source srcset="./img/work/work_768.webp" media="(min-width: 621px)" />
+            <source srcset="./img/work/work_320.webp" media="(min-width: 320px)" />
+            <img src="./img/work/work.png" alt="work_img" />
+          </picture>
+          <div class="work_content">
+            <div class="work_content_headline">
+              <span class="work_content_headline_span"></span>
+              <span class="work_content_headline_span"></span>
+              <span class="work_content_headline_span_text">МИССИЯ DuffBeer</span>
+            </div>
+            <span class="work_content_span">работать вместе, чтобы лучше накормить и сохранить планету</span>
+            <button class="work_content_button">
+              <span class="work_content_button_span">Перейти на сайт</span>
+            </button>
+          </div>
+        </section>
+        <section class="about"></section>
+        <section class="Duffbeer"></section>
+      </div>
+    </main>
+  </body>
 </html>
