@@ -1,0 +1,462 @@
+@media (max-width: 1339px) {
+    .container {
+        width: 960px;
+    }
+
+    .container_header,
+    .work_container,
+    .about_container,
+    .Duffbeer_container {
+        width: 930px;
+    }
+
+    .header_h1,
+    .header_span,
+    .work_kavichka,
+    .about_row_list,
+    .Duffbeer_h2,
+    .Duffeer_list,
+    .Duffbeer_span {
+        left: 40px;
+    }
+
+
+    /* Header */
+
+    .header_vector {
+        display: none;
+    }
+
+    .header_h1 {
+        top: 236px;
+    }
+
+    .header_span {
+        top: 346px;
+    }
+
+    /*hero*/
+
+    .hero,
+    .about_h2 {
+        top: 80px;
+    }
+
+    .hero_billet {
+        width: 405px;
+        height: 272px;
+        top: 33px;
+        left: 15px;
+    }
+
+    .hero_player {
+        top: 58px;
+        left: 55px;
+    }
+
+    .hero_player iframe {
+        width: 405.1px;
+        height: 271.3px;
+    }
+
+    .hero_vector,
+    .hero_h3,
+    .hero_p {
+        left: 487px;
+    }
+
+    .hero_p {
+        width: 417px;
+        height: 155px;
+    }
+
+    .hero_p:nth-last-child(1) {
+        top: 313px;
+    }
+
+    /*work*/
+
+    .work {
+        height: 731px;
+        background: var(--primary-color-body);
+    }
+
+    .work_billet {
+        position: absolute;
+        top: 18px;
+    }
+
+
+    .work_p {
+        left: 125px;
+    }
+
+    .work_image {
+        top: 270px;
+    }
+
+    .work_vector {
+        top: 76px;
+        left: 779px;
+        width: 151px;
+        height: 176px;
+        mask-image: url(../img/svg/Vector_2_1024.svg);
+    }
+
+    .work_content {
+        top: 355px;
+        left: 25px;
+    }
+
+    .work_content_span {
+        width: 583px;
+        height: 64px;
+        line-height: 28px;
+        left: 143px;
+        top: 112px;
+    }
+
+    .work_content_button {
+        top: 207px;
+    }
+
+    /*about*/
+
+    .about {
+        top: 602px;
+    }
+
+    .about_row_list {
+        top: 172px;
+        width: 850px;
+    }
+
+    .about_row_item {
+        width: 260px;
+        height: 343px;
+    }
+
+    .about_row_item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .about_row_p {
+        width: 220px;
+        height: 88px;
+        left: 20px;
+        top: 198px;
+    }
+
+    .about_row_p:nth-last-of-type(1) br {
+        display: block;
+    }
+
+    .about_row_icon {
+        left: 226px;
+        top: 298px;
+    }
+
+    /* Duffbeer*/
+
+    .Duffbeer {
+        top: 602px;
+        height: 1250px;
+    }
+
+    .Duffbeer_h2 {
+        width: 850px;
+        top: 71px;
+    }
+
+    .Duffbeer_vector {
+        height: 416px;
+        width: 170px;
+        top: 68px;
+        left: 760px;
+        mask-image: url(../img/svg/Vector_3_1024.svg);
+    }
+
+    .Duffbeer_vector:nth-of-type(2) {
+        position: absolute;
+        width: 272px;
+        height: 379px;
+        top: 680px;
+        left: 0px;
+        mask-image: url(../img/svg/Vector_4_1024.svg);
+    }
+
+    .Duffeer_list {
+        top: 214px;
+        height: 882px;
+        width: 748px;
+    }
+
+    .Duffbeer_span {
+        top: 151px;
+    }
+
+    .Duffbeer_billet {
+        width: 454px;
+    }
+
+    .Duffbeer_billet_span {
+        width: 204px;
+        left: 222px;
+    }
+
+    .Duffbeer_item:nth-of-type(2) {
+        position: absolute;
+        top: 0px;
+        left: 454px;
+    }
+
+    .Duffbeer_item:nth-of-type(2) .Duffbeer_billet .Duffbeer_billet_span {
+        text-align: left;
+        left: 50px;
+    }
+
+    .Duffbeer_item:nth-of-type(3) {
+        left: 454px;
+    }
+
+    .Duffbeer_item:nth-of-type(3) .Duffberr_icon {
+        top: 62px;
+    }
+
+    .Duffbeer_item:nth-of-type(3) .Duffbeer_billet_span {
+        top: 170px;
+    }
+
+    .Duffbeer_item:nth-of-type(4) {
+        left: 454px;
+    }
+
+    .Duffbeer_item:nth-of-type(4) .Duffbeer_billet {
+        width: 396px;
+    }
+
+    .Duffbeer_item:nth-of-type(4) .Duffbeer_billet .Duffbeer_billet_span {
+        left: 50px;
+    }
+
+    .Duffbeer_item:nth-of-type(5) .Duffbeer_billet .Duffbeer_billet_span {
+        left: 217px;
+    }
+
+    .Duffbeer_item:nth-of-type(6) {
+        left: 160px;
+    }
+
+    .Duffbeer_item:nth-of-type(6) .Duffberr_icon {
+        top: 67px;
+    }
+
+    .Duffbeer_item:nth-of-type(6) .Duffbeer_billet_span {
+        left: 33px;
+        top: 170px;
+    }
+}
+
+@media (max-width: 1019px) {
+    .container {
+        width: 660px;
+    }
+
+    .container_header,
+    .hero_container,
+    .work_container,
+    .about_container,
+    .Duffbeer_container {
+        width: 610px;
+    }
+
+    /* Header */
+
+    .header_logo {
+        width: 167px;
+        height: 64px;
+        left: 222px;
+    }
+
+    .header_h1 {
+        top: 117px;
+        width: 189px;
+        height: 40px;
+        font-size: 36px;
+        line-height: 40px;
+        left: 211px;
+    }
+
+    .header_span {
+        top: 179px;
+        left: 144px;
+        width: 322px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    main {
+        top: 329px;
+    }
+
+    /*hero*/
+
+    .hero {
+        top: 60px;
+    }
+
+    .hero_h3,
+    .hero_vector,
+    .hero_billet,
+    .hero_p,
+    .work_kavichka {
+        left: 20px;
+    }
+
+    .hero_h3 {
+        top: 30px;
+        width: 90px;
+        height: 6px;
+        font-size: 10px;
+    }
+
+    .hero_vector {
+        width: 71px;
+        height: 31px;
+        top: 0px;
+        display: inline-block;
+        background-image: url(../img/svg/Vector_768.svg);
+    }
+
+    .hero_billet {
+        width: 520px;
+        height: 382px;
+        top: 250px;
+    }
+
+    .hero_player {
+        top: 292px;
+        left: 49px;
+    }
+
+    .hero_player iframe {
+        width: 540.8px;
+        height: 361.3px;
+    }
+
+    .hero_p {
+        top: 70px;
+        width: 569px;
+        height: 155px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .hero_p:nth-last-child(1) {
+        top: 140px;
+    }
+
+    .hero_p:nth-last-of-type(1) br {
+        display: block;
+    }
+
+    /* work */
+
+    .work {
+        top: 773px;
+    }
+
+    .work_billet {
+        top: 0px;
+        height: 104px;
+    }
+
+    .work_kavichka {
+        width: 22px;
+        height: 28px;
+        top: 38px;
+        background-image: url(../img/kavichka_768.png);
+    }
+
+    .work_p {
+        left: 69px;
+        top: 32px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .work_p:nth-last-of-type(1) br {
+        display: block;
+    }
+
+    .work_vector {
+        top: 7px;
+        left: 433px;
+        width: 178px;
+        height: 97px;
+        mask-image: url(../img/svg/Vector_2_768.svg);
+    }
+
+    .work_image {
+        top: 104px;
+    }
+
+    .work_content {
+        top: 159px;
+        width: 610px;
+        left: 0px;
+    }
+
+    .work_content_headline {
+        left: 130px;
+        width: 428px;
+        height: 46px;
+    }
+
+    .work_content_headline_span {
+        width: 15px;
+        height: 0px;
+        top: 21px;
+        border: 1px solid var(--primary-color-hero-fon);
+    }
+
+    .work_content_headline_span:nth-last-child(2) {
+        left: 333px;
+    }
+
+    .work_content_headline_span_text {
+        width: 294px;
+        height: 46px;
+        left: 28px;
+        font-size: 30px;
+        line-height: 46px;
+        text-align: center;
+        color: var(--primary-color-hero-fon);
+    }
+
+    .work_content_span {
+        width: 396px;
+        height: 43px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        left: 100px;
+        top: 66px;
+    }
+
+    .work_content_button {
+        top: 116px;
+        width: 171px;
+        height: 48px;
+        left: 220px;
+        padding: 10px 151px 33px 20px;
+    }
+    .work_content_button_span {
+        width: 131px;
+        height: 28px;        
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
