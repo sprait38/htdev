@@ -270,6 +270,11 @@
         width: 610px;
     }
 
+    .hero,
+    .about_h2 {
+        top: 60px;
+    }
+
     /* Header */
 
     .header_logo {
@@ -303,15 +308,13 @@
 
     /*hero*/
 
-    .hero {
-        top: 60px;
-    }
-
     .hero_h3,
     .hero_vector,
     .hero_billet,
     .hero_p,
-    .work_kavichka {
+    .work_kavichka,
+    .about_row_list,
+    .about_row_p {
         left: 20px;
     }
 
@@ -366,6 +369,7 @@
 
     .work {
         top: 773px;
+        height: 380px;
     }
 
     .work_billet {
@@ -453,10 +457,60 @@
         left: 220px;
         padding: 10px 151px 33px 20px;
     }
+
     .work_content_button_span {
         width: 131px;
-        height: 28px;        
+        height: 28px;
         font-size: 14px;
         line-height: 28px;
+    }
+
+    /*about*/
+
+    .about {
+        top: 771px;
+        height: 360px;
+    }
+
+    .about_h2 {
+        width: 259px;
+        height: 32px;
+        left: 20px;
+        position: absolute;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .about_row_list {
+        top: 113px;
+        width: 545px;
+    }
+
+    .about_row_item {
+        height: 284px;
+    }
+
+    .about_row_p:nth-last-of-type(1) br {
+        display: none;
+    }
+
+    .about_row_p {
+        width: 220px;
+        height: 33px;
+        top: 198px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .about_row_icon {
+        top: 243px;
+    }
+
+   
+
+    /*Duffbeer*/
+    .Duffbeer {
+        top: 2060px;
+        height: 1250px;
     }
 }

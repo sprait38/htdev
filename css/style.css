@@ -90,7 +90,6 @@ ul {
 .about_row_img,
 .Duffbeer_image {
     width: 100%;
-    height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
@@ -376,7 +375,7 @@ main {
 .work_content_button {
     width: 283px;
     height: 68px;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 238px 48px 34px;
     top: 187px;
     left: 298.7px;
     position: relative;
