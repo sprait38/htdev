@@ -420,6 +420,16 @@ main {
     color: var(--primary-color-h2);
 }
 
+.swiper {
+    display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+    display: none;
+}
+
 .about_row_list {
     display: flex;
     flex-wrap: wrap;
@@ -427,7 +437,6 @@ main {
     width: 1131px;
     top: 221px;
     position: absolute;
-
 }
 
 .about_row_item {

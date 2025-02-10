@@ -387,6 +387,7 @@
     .work_p {
         left: 69px;
         top: 32px;
+        width: 450px;
         font-size: 16px;
         line-height: 20px;
     }
@@ -469,7 +470,7 @@
 
     .about {
         top: 771px;
-        height: 360px;
+        height: 420px;
     }
 
     .about_h2 {
@@ -481,16 +482,9 @@
         line-height: 32px;
     }
 
+    .about_row_p:nth-last-of-type(1) br,
+    .Duffeer_list,
     .about_row_list {
-        top: 113px;
-        width: 545px;
-    }
-
-    .about_row_item {
-        height: 284px;
-    }
-
-    .about_row_p:nth-last-of-type(1) br {
         display: none;
     }
 
@@ -502,15 +496,176 @@
         line-height: 22px;
     }
 
-    .about_row_icon {
-        top: 243px;
+    .about_row_icon_span {
+        left: 13px;
     }
 
-   
+    .about_row_icon {
+        top: 243px;
+        left: 218px;
+    }
+
+    .about_row_img {
+        position: absolute;
+        top: 0px;
+
+    }
+
+    .swiper {
+        display: block;
+        width: 545px;
+        height: 284px;
+    }
+
+    .mySwiper {
+        position: absolute;
+        top: 113px;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: var(--primary-color-h2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: absolute;
+        top: 60%;
+        width: 11px;
+        height: 10px;
+        margin-top: calc(0px -(var(--swiper-navigation-size) / 2));
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: transparent;
+    }
+
+
+    .swiper-button-next {
+        background-image: url(../img/arrow_right.png);
+        background-repeat: no-repeat;
+    }
+
+    .swiper-button-prev {
+        background-image: url(../img/arrow_left.png);
+        background-repeat: no-repeat;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 0px;
+    }
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 0px;
+        right: auto;
+    }
+
+    .swiper-button-next,
+    .swiper-button-next2,
+    .swiper-rtl .swiper-button-prev {
+        right: 4px;
+        left: auto;
+    }
+
+    .swiper-button-next2 {
+        top: 56%;
+        right: 8px;
+        left: auto;
+    }
+
+    .swiper-button-prev2 {
+        top: 56%;
+    }
+
+    .swiper-pagination2 {
+        top: 470px;
+    }
+
+    .swiper-pagination {
+        display: block;
+    }
 
     /*Duffbeer*/
+
     .Duffbeer {
-        top: 2060px;
-        height: 1250px;
+        top: 770px;
+        height: 565px;
+    }
+
+    .Duffbeer_h2 {
+        width: 259px;
+        top: 57px;
+        line-height: 30px;
+    }
+
+    .Duffbeer_vector {
+        width: 235px;
+        height: 296px;
+        top: 481px;
+        left: 468px;
+        mask-image: url(../img/svg/Vector_3_768.svg);
+    }
+
+    .Duffbeer_vector:nth-of-type(2) {
+        display: none;
+    }
+
+    .Duffeer_swiper,
+    .mySwiper,
+    .Duffbeer_h2,
+    .Duffbeer_span {
+        left: 20px;
+    }
+
+    .Duffeer_swiper {
+        position: absolute;
+        top: 170px;
+        height: 294px;
+    }
+
+    .Duffeer_swiper-slide {
+        width: 260px;
+        height: 294px;
+    }
+
+    .Duffbeer_billet {
+        width: 260px;
+    }
+
+    .Duffbeer_span {
+        top: 96px;
+    }
+
+    .Duffbeer_billet_span {
+        left: 10px;
+        text-align: left;
+        line-height: 22px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(6) .Duffbeer_icon {
+        background-image: url(../img/svg/167_2.svg);
+        background-repeat: no-repeat;
+    }
+
+    .Duffeer_swiper-slide,
+    .Duffbeer_billet:not(:last-child) {
+        margin-right: 25px;
     }
 }
