@@ -1,6 +1,14 @@
 var swiper1 = new Swiper('.mySwiper', {
-    slidesPerView: 2,
-    spaceBetween: 30,
+    breakpoints: {
+        320: {
+         slidesPerView: 1,
+         spaceBetween: 30
+        },
+        1019:{
+            slidesPerView: 2,
+            spaceBetween: 30,
+        }
+       },
     freeMode: true,
     mousewheel: true,
     keyboard: true,
@@ -14,9 +22,18 @@ var swiper1 = new Swiper('.mySwiper', {
         prevEl: ".swiper-button-prev2",
       },
   });
+
   var swiper2 = new Swiper('.Duffeer_swiper', {
-    slidesPerView: 2,
-    spaceBetween: 30,
+    breakpoints: {
+        320: {
+         slidesPerView: 1,
+         spaceBetween: 30
+        },
+        1019:{
+            slidesPerView: 2,
+            spaceBetween: 30,
+        }
+       },
     freeMode: true,
     mousewheel: true,
     keyboard: true,

@@ -613,6 +613,7 @@
         width: 259px;
         top: 57px;
         line-height: 30px;
+        font-size: var(--font-size-base);
     }
 
     .Duffbeer_vector {
@@ -621,7 +622,7 @@
         top: 481px;
         left: 468px;
         mask-image: url(../img/svg/Vector_3_768.svg);
-        z-index: 1;
+        z-index: 3;
     }
 
     .Duffbeer_vector:nth-of-type(2) {
@@ -722,8 +723,7 @@
     }
 
     /*hero*/
-    .hero,
-    .about_h2 {
+    .hero {
         top: 89px;
     }
 
@@ -843,6 +843,111 @@
     .work_content_button_span {
         width: 157px;
         left: 19px;
+    }
+
+    /*about*/
+
+    .about_h2 {
+        top: 50px;
+    }
+
+    .swiper {
+        width: 260px;
+        height: 284px;
+    }
+
+    .mySwiper {
+        top: 102px;
+    }
+
+    .swiper-button-prev2 {
+        top: 57%;
+    }
+
+    .swiper-button-next2 {
+        top: 57%;
+        right: 4px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 10px;
+    }
+
+    /*Duffbeer*/
+
+    .Duffbeer {
+        height: 524px;
+    }
+
+    .Duffbeer_h2 {
+        top: 46px;
+    }
+
+    .Duffeer_swiper,
+    .mySwiper,
+    .Duffbeer_h2,
+    .Duffbeer_span {
+        left: 14px;
+    }
+
+    .Duffbeer_span {
+        top: 95px;
+        width: 259px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Duffbeer_span br {
+        display: block;
+    }
+
+    .Duffeer_swiper {
+        top: 145px;
+        z-index: 3;
+    }
+
+    .swiper-slide:nth-of-type(4) .Duffbeer_billet_span,
+    .swiper-slide:nth-of-type(7) .Duffbeer_billet_span {
+        text-align: center;
+        left: 20px;
+        top: 178px;
+        width: 225px;
+    }
+
+    .swiper-slide:nth-of-type(5) .Duffbeer_billet_span,
+    .swiper-slide:nth-of-type(6) .Duffbeer_billet_span {
+        text-align: center;
+        left: 20px;
+        top: 12px;
+        width: 225px;
+    }
+
+    .swiper-slide:nth-of-type(4) .Duffberr_icon {
+        left: 95px;
+    }
+
+    .swiper-slide:nth-of-type(7) .Duffberr_icon_2 {
+        left: 55px;
+    }
+
+    .Duffbeer_vector {
+        width: 107px;
+        height: 95px;
+        top: 424px;
+        left: 178px;
+        mask-image: url(../img/svg/Vector_3_320.svg);
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        height: 25px;
+        left: 10px;
+        width: 60%;
     }
 
 }

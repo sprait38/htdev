@@ -703,3 +703,6 @@ main {
     background-size: cover;
     background-image: url(../img/svg/167_2.svg);
 }
+.Duffbeer_span br {
+    display: none;
+}
