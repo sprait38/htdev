@@ -142,6 +142,10 @@ ul {
     color: var(--primary-color-hero-fon);
 }
 
+.header_span br {
+    display: none;
+}
+
 .header_span {
     width: 550px;
     height: 72px;
@@ -370,6 +374,10 @@ main {
     text-decoration-skip-ink: none;
     color: var(--primary-color-hero-fon);
     text-transform: uppercase;
+}
+
+.work_content_span br {
+    display: none;
 }
 
 .work_content_button {
@@ -684,7 +692,7 @@ main {
     z-index: 1;
 }
 
-.Duffbeer_item:nth-of-type(6) .Duffberr_icon {
+.Duffberr_icon_2 {
     position: absolute;
     top: 71px;
     left: 65px;
