@@ -1,14 +1,22 @@
 var swiper1 = new Swiper('.mySwiper', {
     breakpoints: {
         320: {
-         slidesPerView: 1,
-         spaceBetween: 30
+            slidesPerView: 1,
+            spaceBetween: 31,
         },
-        1019:{
+        1019: {
             slidesPerView: 2,
-            spaceBetween: 30,
+            spaceBetween: 31,
+        },
+        1339: {
+            slidesPerView: 9,
+            spaceBetween: 31,
+            allowTouchMove: false,
+            allowSlideNext: false,
+            allowSlidePrev: false,
+            enabled: false,
         }
-       },
+    },
     freeMode: true,
     mousewheel: true,
     keyboard: true,
@@ -20,20 +28,28 @@ var swiper1 = new Swiper('.mySwiper', {
     navigation: {
         nextEl: ".swiper-button-next2",
         prevEl: ".swiper-button-prev2",
-      },
-  });
+    },
+});
 
-  var swiper2 = new Swiper('.Duffeer_swiper', {
+var swiper2 = new Swiper('.Duffeer_swiper', {
     breakpoints: {
         320: {
-         slidesPerView: 1,
-         spaceBetween: 30
+            slidesPerView: 1,
+            spaceBetween: 30
         },
-        1019:{
+        1019: {
             slidesPerView: 2,
             spaceBetween: 30,
+        },
+        1339: {
+            slidesPerView: 4,
+            spaceBetween: 31,
+            allowTouchMove: false,
+            allowSlideNext: false,
+            allowSlidePrev: false,
+            enabled: false,
         }
-       },
+    },
     freeMode: true,
     mousewheel: true,
     keyboard: true,
@@ -45,5 +61,5 @@ var swiper1 = new Swiper('.mySwiper', {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-      },
-  });
+    },
+});
