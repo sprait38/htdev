@@ -602,6 +602,103 @@
         display: block;
     }
 
+    .css-modal-details details[open] .cmc:after {
+        content: "";
+        width: 25px;
+        height: 25px;
+        border: 6px solid #BFE2FF;
+        border-radius: 12px;
+        position: absolute;
+        z-index: 10;
+        top: 0px;
+        right: 20px;
+        background-image: url(../img/svg/crestic.svg);
+        background-repeat: no-repeat;
+    }
+    .css-modal-details details[open] summary {
+        width: 47%;
+    }
+    .css-modal-details details[open] .cmc {
+        width: 47%;
+    }
+    .css-modal-details details .cmt {
+        font-size: 13px;
+    }
+
+    .swiper-slide:nth-of-type(3) .css-modal-details details[open] summary {
+        left: 566px;
+    }
+
+    .swiper-slide:nth-of-type(3) .css-modal-details details[open] .cmc {
+        left: 575px;
+    }
+
+    .swiper-slide:nth-of-type(4) .css-modal-details details[open] summary {
+        left: 852px;
+    }
+
+    .swiper-slide:nth-of-type(4) .css-modal-details details[open] .cmc {
+        left: 862px;
+    }
+
+    .swiper-slide:nth-of-type(5) .css-modal-details details[open] summary {
+        left: 1140px;
+    }
+
+    .swiper-slide:nth-of-type(5) .css-modal-details details[open] .cmc {
+        left: 1149px;
+    }
+
+    .swiper-slide:nth-of-type(6) .css-modal-details details[open] summary {
+        left: 1430px;
+    }
+
+    .swiper-slide:nth-of-type(6) .css-modal-details details[open] .cmc {
+        left: 1440px;
+    }
+
+    .swiper-slide:nth-of-type(7) .css-modal-details details[open] summary {
+        left: 1715px;
+    }
+
+    .swiper-slide:nth-of-type(7) .css-modal-details details[open] .cmc {
+        left: 1725px;
+    }
+
+    .swiper-slide:nth-of-type(8) .css-modal-details details[open] summary {
+        left: 2005px;
+    }
+
+    .swiper-slide:nth-of-type(8) .css-modal-details details[open] .cmc {
+        left: 2015px;
+    }
+
+    .swiper-slide:nth-of-type(9) .css-modal-details details[open] summary {
+        left: 2295px;
+    }
+
+    .swiper-slide:nth-of-type(9) .css-modal-details details[open] .cmc {
+        left: 2305px;
+    }
+
+    
+    .swiper-slide:nth-of-type(10) .css-modal-details details[open] summary {
+        left: 2575px;
+    }
+
+    .swiper-slide:nth-of-type(10) .css-modal-details details[open] .cmc {
+        left: 2585px;
+    }
+
+    
+    .swiper-slide:nth-of-type(11) .css-modal-details details[open] summary {
+        left: 2875px;
+    }
+
+    .swiper-slide:nth-of-type(11) .css-modal-details details[open] .cmc {
+        left: 2885px;
+    }
+
     /*Duffbeer*/
 
     .Duffbeer {
@@ -875,6 +972,103 @@
     .swiper-pagination-fraction {
         bottom: 10px;
     }
+
+    .css-modal-details details[open] .cmc:after {
+        content: "";
+        width: 25px;
+        height: 25px;
+        border: 6px solid #BFE2FF;
+        border-radius: 12px;
+        position: absolute;
+        z-index: 10;
+        top: 0px;
+        right: 20px;
+        background-image: url(../img/svg/crestic.svg);
+        background-repeat: no-repeat;
+    }
+    .css-modal-details details[open] summary {
+        width: 100%;
+    }
+    .css-modal-details details[open] .cmc {
+        width: 100%;
+    }
+    .css-modal-details details .cmt {
+        font-size: 13px;
+    }
+
+    .swiper-slide:nth-of-type(2) .css-modal-details details[open] summary {
+        left: 278px;
+    }
+
+    .swiper-slide:nth-of-type(2) .css-modal-details details[open] .cmc {
+        left: 290px;
+    }
+    
+    .swiper-slide:nth-of-type(3) .css-modal-details details[open] summary {
+        left: 566px;
+    }
+
+    .swiper-slide:nth-of-type(3) .css-modal-details details[open] .cmc {
+        left: 575px;
+    }
+
+    .swiper-slide:nth-of-type(4) .css-modal-details details[open] summary {
+        left: 860px;
+    }
+
+    .swiper-slide:nth-of-type(4) .css-modal-details details[open] .cmc {
+        left: 870px;
+    }
+
+    .swiper-slide:nth-of-type(5) .css-modal-details details[open] summary {
+        left: 1149px;
+    }
+
+    .swiper-slide:nth-of-type(5) .css-modal-details details[open] .cmc {
+        left: 1158px;
+    }
+
+    .swiper-slide:nth-of-type(6) .css-modal-details details[open] summary {
+        left: 1441px;
+    }
+
+    .swiper-slide:nth-of-type(6) .css-modal-details details[open] .cmc {
+        left: 1451px;
+    }
+
+    .swiper-slide:nth-of-type(7) .css-modal-details details[open] summary {
+        left: 1731px;
+    }
+
+    .swiper-slide:nth-of-type(7) .css-modal-details details[open] .cmc {
+        left: 1741px;
+    }
+
+    .swiper-slide:nth-of-type(8) .css-modal-details details[open] summary {
+        left: 2019px;
+    }
+
+    .swiper-slide:nth-of-type(8) .css-modal-details details[open] .cmc {
+        left: 2029px;
+    }
+
+    .swiper-slide:nth-of-type(9) .css-modal-details details[open] summary {
+        left: 2310px;
+    }
+
+    .swiper-slide:nth-of-type(9) .css-modal-details details[open] .cmc {
+        left: 2320px;
+    }
+
+    
+    .swiper-slide:nth-of-type(10) .css-modal-details details[open] summary {
+        left: 2600px;
+    }
+
+    .swiper-slide:nth-of-type(10) .css-modal-details details[open] .cmc {
+        left: 2610px;
+    }
+
 
     /*Duffbeer*/
 
