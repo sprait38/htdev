@@ -125,6 +125,7 @@ ul {
     position: absolute;
     width: 267px;
     height: 103px;
+    left: 60px;
     z-index: 1;
 }
 
@@ -444,14 +445,54 @@ main {
     width: 356px !important;
     height: 317px;
     background: var(--primary-color-h2);
-    position: relative;
+    position: absolute;
     transition-property: transform;
+}
+
+.swiper-slide:nth-of-type(2) {
+    top: 0px;
+    left: 388px;
+}
+
+.swiper-slide:nth-of-type(3) {
+    top: 0px;
+    left: 775px;
+}
+
+.swiper-slide:nth-of-type(4) {
+    top: 348px;
+    left: 0px;
+}
+
+.swiper-slide:nth-of-type(5) {
+    top: 348px;
+    left: 388px;
+}
+
+.swiper-slide:nth-of-type(6) {
+    top: 348px;
+    left: 775px;
+}
+
+.swiper-slide:nth-of-type(7) {
+    top: 700px;
+    left: 0px;
+}
+
+.swiper-slide:nth-of-type(8) {
+    top: 700px;
+    left: 388px;
+}
+
+.swiper-slide:nth-of-type(9) {
+    top: 700px;
+    left: 775px;
 }
 
 .swiper-wrapper {
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: flex-start;
+    transform: translate3d(0px, 0px, 0px) !important;
 }
 
 .swiper-button-next,
@@ -556,51 +597,69 @@ main {
     color: var(--primary-color-text);
 }
 
-.Duffeer_list {
+.Duffeer_swiper {
+    position: absolute;
+    top: 172px;
+}
+
+.Duffeer_swiper:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.Duffeer_swiper_wrapper {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Duffeer_swiper-slide {
     position: absolute;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    top: 282px;
-    height: 882px;
-    width: 859px;
+    top: 0px;
+    left: 0px;
+    height: 294px;
 }
 
-.Duffbeer_item:nth-of-type(2) {
+.Duffeer_swiper-slide:nth-of-type(2) {
     position: absolute;
     top: 0px;
-    left: 565px;
+    left: 566px;
+    width: 294px !important;
+    margin-bottom: 0px;
 }
 
-.Duffbeer_item:nth-of-type(3) {
+.Duffeer_swiper-slide:nth-of-type(3) {
     position: absolute;
     top: 588px;
-    left: 565px;
+    left: 566px;
     background: var(--primary-color-billet);
-    width: 293px;
-    height: 294px;
+    width: 294px !important;
+    margin-bottom: 0px;
 }
 
-.Duffbeer_item:nth-of-type(4) {
+.Duffeer_swiper-slide:nth-of-type(4) {
     position: absolute;
     top: 294px;
-    left: 565px;
+    left: 566px;
+    width: 565px !important;
+    margin-bottom: 0px;
 }
 
-.Duffbeer_item:nth-of-type(5) {
+.Duffeer_swiper-slide:nth-of-type(5) {
     position: absolute;
     top: 588px;
-    left: 0px;
-
+    left: 1px;
+    margin-bottom: 0px;
 }
 
-.Duffbeer_item:nth-of-type(6) {
+.Duffeer_swiper-slide:nth-of-type(6) {
     position: absolute;
     top: 294px;
-    left: 271px;
+    left: 272px;
     background: var(--primary-color-billet);
-    width: 294px;
-    height: 294px;
+    width: 294px !important;
+    margin-bottom: 0px;
 }
 
 .Duffbeer_image {
@@ -617,7 +676,7 @@ main {
     z-index: 1;
 }
 
-.Duffbeer_item:nth-of-type(2) .Duffbeer_billet {
+.Duffeer_swiper-slide:nth-of-type(2) .Duffbeer_billet {
     background: var(--primary-color-billet);
     width: 294px;
     height: 54px;
@@ -639,28 +698,28 @@ main {
     color: var(--primary-color-hero-fon);
 }
 
-.Duffbeer_item:nth-of-type(2) .Duffbeer_billet .Duffbeer_billet_span {
+.Duffeer_swiper-slide:nth-of-type(2) .Duffbeer_billet .Duffbeer_billet_span {
     text-align: left;
     left: 40px;
 }
 
-.Duffbeer_item:nth-of-type(3) .Duffbeer_billet_span {
+.Duffeer_swiper-slide:nth-of-type(3) .Duffbeer_billet_span {
     text-align: left;
     left: 90px;
     top: 178px;
     width: 225px;
 }
 
-.Duffbeer_item:nth-of-type(4) .Duffbeer_billet .Duffbeer_billet_span {
+.Duffeer_swiper-slide:nth-of-type(4) .Duffbeer_billet .Duffbeer_billet_span {
     text-align: left;
     left: 40px;
 }
 
-.Duffbeer_item:nth-of-type(5) .Duffbeer_billet .Duffbeer_billet_span {
+.Duffeer_swiper-slide:nth-of-type(5) .Duffbeer_billet .Duffbeer_billet_span {
     left: 270px;
 }
 
-.Duffbeer_item:nth-of-type(6) .Duffbeer_billet_span {
+.Duffeer_swiper-slide:nth-of-type(6) .Duffbeer_billet_span {
     text-align: center;
     left: 35px;
     top: 178px;
@@ -776,19 +835,4 @@ main {
     right: 20px;
     fill: var(--primary-color-hero-fon);
     cursor: pointer;
-}
-
-
-/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
-
-a {
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #0df743;
-    margin: 10px;
-    color: #f00d0d;
-    border-radius: 3px;
-    z-index: 5;
-    position: absolute;
 }

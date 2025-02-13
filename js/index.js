@@ -9,7 +9,7 @@ var swiper1 = new Swiper('.mySwiper', {
             spaceBetween: 31,
         },
         1339: {
-            slidesPerView: 9,
+            slidesPerView: 0,
             spaceBetween: 31,
             allowTouchMove: false,
             allowSlideNext: false,
@@ -35,15 +35,15 @@ var swiper2 = new Swiper('.Duffeer_swiper', {
     breakpoints: {
         320: {
             slidesPerView: 1,
-            spaceBetween: 30
+            spaceBetween: 0
         },
         1019: {
             slidesPerView: 2,
-            spaceBetween: 30,
+            spaceBetween: 0,
         },
         1339: {
-            slidesPerView: 4,
-            spaceBetween: 31,
+            slidesPerView: 0,
+            spaceBetween: 0,
             allowTouchMove: false,
             allowSlideNext: false,
             allowSlidePrev: false,
