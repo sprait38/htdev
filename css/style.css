@@ -428,14 +428,17 @@ main {
     color: var(--primary-color-h2);
 }
 
-.mySwiper, .swiper-wrapper {
+.mySwiper,
+.swiper-wrapper {
     width: 1131px;
     height: 1300px;
     top: 110px;
 }
+
 .swiper-slide:not(:last-child) {
     margin-bottom: 32px;
 }
+
 .swiper-slide {
     flex-shrink: 0;
     width: 356px !important;
@@ -444,6 +447,7 @@ main {
     position: relative;
     transition-property: transform;
 }
+
 .swiper-wrapper {
     flex-wrap: wrap;
     flex-direction: column;
@@ -454,34 +458,6 @@ main {
 .swiper-button-prev,
 .swiper-pagination {
     display: none;
-}
-
-.swiper-slide:nth-of-type(10) .css-modal-details details[open] summary {
-    left: 1290px;
-}
-
-.swiper-slide:nth-of-type(10) .css-modal-details details[open] .cmc {
-    left: 1310px;
-}
-
-.about_row_list {
-    display: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1131px;
-    top: 221px;
-    position: absolute;
-}
-
-.about_row_item {
-    width: 356px ;
-    height: 317px;
-    background: var(--primary-color-h2);
-    position: relative;
-}
-
-.about_row_item:not(:last-child) {
-    margin-bottom: 32px;
 }
 
 .about_row_img {
@@ -513,22 +489,8 @@ main {
     height: 15px;
     left: 322px;
     top: 270px;
-}
-
-.about_row_icon_span {
-    position: absolute;
-    left: 6px;
-    width: 3.06px;
-    height: 15px;
-    background: var(--primary-color-hero-fon);
-}
-
-.about_row_icon_span_2 {
-    position: absolute;
-    top: 6px;
-    width: 15px;
-    height: 3.06px;
-    background: var(--primary-color-hero-fon);
+    background-image: url(../img/svg/plus.svg);
+    background-repeat: no-repeat;
 }
 
 /* Duffbeer*/
@@ -734,150 +696,99 @@ main {
     display: none;
 }
 
+/* Стили для подложки */
 
-/*modal/
+.overlay {
 
-/* Контейнер для кнопки, чтобы не прыгал контент, когда она сменит позиционирование */
-.css-modal-details {
-    height: 15px;
-    width: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Кнопка для открытия */
-.css-modal-details summary {
-    display: inline-flex;
-    margin: 10px;
-    position: relative;
-    color: #FFF;
-    height: 15px;
-    width: 15px;
-    background: transparent;
-    cursor: pointer;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.css-modal-details summary:hover,
-.css-modal-details summary:active,
-.css-modal-details summary:focus {
-    color: #FFF;
-}
-
-.css-modal-details summary:before {
-    content: '';
-    position: absolute;
-    top: 2px;
-    right: 45px;
-    width: 15px;
-    height: 15px;
-    bottom: 0;
-    left: 23px;
-    transition: transform 0.5s;
-    transform: translateX(-100%);
-    z-index: -1;
-}
-
-.css-modal-details summary:hover:before,
-.css-modal-details summary:active:before,
-.css-modal-details summary:focus:before {
-    transform: translateX(0);
-}
-
-/* Кнопка при открытом окне переходит на весь экран */
-.css-modal-details details[open] summary {
-    cursor: default;
+    /* Скрываем подложку  */
     opacity: 0;
+    visibility: hidden;
+
     position: fixed;
-    left: 0;
     top: 0;
-    z-index: 3;
-    width: 15px;
-    height: 15px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
 }
 
-/* Контейнер, который затемняет страницу */
-.css-modal-details details .cmc {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.css-modal-details details[open] .cmc {
-    pointer-events: none;
-    z-index: 4;
-    position: fixed;
-    left: 0;
-    top: 0;
+/* Стили для модальных окон */
+
+.modal {
+
+    /* Скрываем окна  */
+    opacity: 0;
+    visibility: hidden;
+
+    /*  Установаем ширину окна  */
     width: 356px;
     height: 264px;
-    animation: bg 0.5s ease;
-}
 
-/* Модальное окно */
-.css-modal-details details .cmt {
-    font-size: 18px;
-    line-height: 22px;
-    color: var(--primary-color-hero-fon);
-    padding: 20px 20px 32px 20px;
-    width: 315px;
-    height: 188px;
-    transition: 0.5s;
-    background: var(--primary-color-h2);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+
+
+    /*  Центрируем и задаем z-index */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    /* Должен быть выше чем у подложки*/
+
+    /*  Побочные стили   */
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, .2);
     text-align: left;
-    overflow: auto;
+    padding: 20px 20px 32px 20px;
+    background-color: var(--primary-color-h2);
+    transition: 0.3s all;
 }
 
-.css-modal-details details[open] .cmt {
-    animation: scale 0.5s ease;
-    z-index: 4;
-    pointer-events: auto;
+
+/* Стили для активных классов подложки и окна */
+
+.modal.active,
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
 }
 
-/* Декоративная кнопка с крестиком */
-.css-modal-details details[open] .cmc:after {
-    content: "";
-    width: 25px;
-    height: 25px;
+.modal_content {
+    width: 320px;
+    height: 188px;
+}
+
+.modal_content_p {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: var(--primary-color-hero-fon);
+}
+
+/* Стили для кнопки закрытия */
+
+.modal__cross {
+    width: 15px;
+    height: 15px;
     position: absolute;
-    z-index: 10;
-    top: 230px;
-    right: 18px;
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23337AB7' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3e%3cline x1='18' y1='6' x2='6' y2='18'%3e%3c/line%3e%3cline x1='6' y1='6' x2='18' y2='18'%3e%3c/line%3e%3c/svg%3e");
-    background-size: cover;
-    animation: move 0.5s ease;
+    top: 280px;
+    right: 20px;
+    fill: var(--primary-color-hero-fon);
+    cursor: pointer;
 }
 
-/* Анимации */
-@keyframes scale {
-    0% {
-        transform: scale(0);
-    }
 
-    100% {
-        transform: scale(1);
-    }
-}
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
 
-@keyframes move {
-    0% {
-        right: -80px;
-    }
-
-    100% {
-        right: 20px;
-    }
-}
-
-@keyframes bg {
-    0% {
-        background: rgba(51, 122, 183, 0);
-    }
-
-    100% {
-        background: rgba(51, 122, 183, 0.7);
-    }
+a {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0df743;
+    margin: 10px;
+    color: #f00d0d;
+    border-radius: 3px;
+    z-index: 5;
+    position: absolute;
 }
