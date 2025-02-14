@@ -13,7 +13,7 @@
     .header_h1,
     .header_span,
     .work_kavichka,
-    .about_row_list,
+    .about_h2,
     .Duffbeer_h2,
     .Duffeer_list,
     .Duffbeer_span {
@@ -126,18 +126,56 @@
         top: 602px;
     }
 
-    .about_row_list {
-        top: 172px;
+    .mySwiper,
+    .swiper-wrapper {
         width: 850px;
+        height: 1300px;
+        top: 86px;
     }
 
-    .about_row_item {
-        width: 260px;
+    .swiper-slide {
+        width: 260px !important;
         height: 343px;
     }
 
-    .about_row_item:not(:last-child) {
-        margin-bottom: 20px;
+    .swiper-slide:nth-of-type(2) {
+        top: 0px;
+        left: 295px;
+    }
+
+    .swiper-slide:nth-of-type(3) {
+        top: 0px;
+        left: 590px;
+    }
+
+    .swiper-slide:nth-of-type(4) {
+        top: 363px;
+        left: 0px;
+    }
+
+    .swiper-slide:nth-of-type(5) {
+        top: 363px;
+        left: 295px;
+    }
+
+    .swiper-slide:nth-of-type(6) {
+        top: 363px;
+        left: 590px;
+    }
+
+    .swiper-slide:nth-of-type(7) {
+        top: 726px;
+        left: 0px;
+    }
+
+    .swiper-slide:nth-of-type(8) {
+        top: 726px;
+        left: 295px;
+    }
+
+    .swiper-slide:nth-of-type(9) {
+        top: 726px;
+        left: 590px;
     }
 
     .about_row_p {
@@ -168,6 +206,10 @@
         top: 71px;
     }
 
+    .Duffbeer_span {
+        top: 152px;
+    }
+
     .Duffbeer_vector {
         height: 416px;
         width: 170px;
@@ -185,16 +227,6 @@
         mask-image: url(../img/svg/Vector_4_1024.svg);
     }
 
-    .Duffeer_list {
-        top: 214px;
-        height: 882px;
-        width: 748px;
-    }
-
-    .Duffbeer_span {
-        top: 151px;
-    }
-
     .Duffbeer_billet {
         width: 454px;
     }
@@ -204,54 +236,70 @@
         left: 222px;
     }
 
-    .Duffbeer_item:nth-of-type(2) {
+    .Duffeer_swiper {
         position: absolute;
-        top: 0px;
+        top: 128px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(2) {
         left: 454px;
     }
 
-    .Duffbeer_item:nth-of-type(2) .Duffbeer_billet .Duffbeer_billet_span {
+    .Duffeer_swiper-slide:nth-of-type(3) {
+        left: 454px;
+        top: 588px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(4) {
+        top: 294px;
+        left: 454px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(5) {
+        position: absolute;
+        top: 588px;
+        left: 1px;
+        margin-bottom: 0px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(6) {
+        top: 294px;
+        left: 160px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(2) .Duffbeer_billet .Duffbeer_billet_span {
         text-align: left;
         left: 50px;
     }
 
-    .Duffbeer_item:nth-of-type(3) {
-        left: 454px;
-    }
 
-    .Duffbeer_item:nth-of-type(3) .Duffberr_icon {
+    .Duffeer_swiper-slide:nth-of-type(3) .Duffberr_icon {
         top: 62px;
     }
 
-    .Duffbeer_item:nth-of-type(3) .Duffbeer_billet_span {
+    .Duffeer_swiper-slide:nth-of-type(3) .Duffbeer_billet_span {
         top: 170px;
     }
 
-    .Duffbeer_item:nth-of-type(4) {
-        left: 454px;
-    }
 
-    .Duffbeer_item:nth-of-type(4) .Duffbeer_billet {
+    .Duffeer_swiper-slide:nth-of-type(4) .Duffbeer_billet {
         width: 396px;
     }
 
-    .Duffbeer_item:nth-of-type(4) .Duffbeer_billet .Duffbeer_billet_span {
+    .Duffeer_swiper-slide:nth-of-type(4) .Duffbeer_billet .Duffbeer_billet_span {
         left: 50px;
     }
 
-    .Duffbeer_item:nth-of-type(5) .Duffbeer_billet .Duffbeer_billet_span {
+    .Duffeer_swiper-slide:nth-of-type(5) .Duffbeer_billet .Duffbeer_billet_span {
         left: 217px;
     }
 
-    .Duffbeer_item:nth-of-type(6) {
-        left: 160px;
-    }
 
-    .Duffbeer_item:nth-of-type(6) .Duffberr_icon {
+    .Duffeer_swiper-slide:nth-of-type(6) .Duffberr_icon {
         top: 67px;
     }
 
-    .Duffbeer_item:nth-of-type(6) .Duffbeer_billet_span {
+    .Duffeer_swiper-slide:nth-of-type(6) .Duffbeer_billet_span {
         left: 33px;
         top: 170px;
     }
@@ -482,9 +530,7 @@
         line-height: 32px;
     }
 
-    .about_row_p:nth-last-of-type(1) br,
-    .Duffeer_list,
-    .about_row_list {
+    .about_row_p:nth-last-of-type(1) br {
         display: none;
     }
 
@@ -494,10 +540,6 @@
         top: 198px;
         font-size: 14px;
         line-height: 22px;
-    }
-
-    .about_row_icon_span {
-        left: 13px;
     }
 
     .about_row_icon {
@@ -511,31 +553,61 @@
 
     }
 
-    .swiper {
-        display: block;
+    .mySwiper,
+    .swiper-wrapper {
         width: 545px;
         height: 284px;
+        top: 0px;
+        margin: 0 auto;
     }
 
-    .mySwiper {
-        position: absolute;
-        top: 113px;
+    .slide:not(:last-child) {
+        margin-bottom: 0px;
     }
 
     .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: var(--primary-color-h2);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 260px !important;
+        height: 294px;
     }
 
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+    .swiper-slide:nth-of-type(2) {
+        top: 0px;
+        left: 295px;
+    }
+
+    .swiper-slide:nth-of-type(3) {
+        top: 0px;
+        left: 590px;
+    }
+
+    .swiper-slide:nth-of-type(4) {
+        top: 363px;
+        left: 0px;
+    }
+
+    .swiper-slide:nth-of-type(5) {
+        top: 363px;
+        left: 295px;
+    }
+
+    .swiper-slide:nth-of-type(6) {
+        top: 363px;
+        left: 590px;
+    }
+
+    .swiper-slide:nth-of-type(7) {
+        top: 726px;
+        left: 0px;
+    }
+
+    .swiper-slide:nth-of-type(8) {
+        top: 726px;
+        left: 295px;
+    }
+
+    .swiper-slide:nth-of-type(9) {
+        top: 726px;
+        left: 590px;
     }
 
     .swiper-button-next,
@@ -600,103 +672,6 @@
 
     .swiper-pagination {
         display: block;
-    }
-
-    .css-modal-details details[open] .cmc:after {
-        content: "";
-        width: 25px;
-        height: 25px;
-        border: 6px solid #BFE2FF;
-        border-radius: 12px;
-        position: absolute;
-        z-index: 10;
-        top: 0px;
-        right: 20px;
-        background-image: url(../img/svg/crestic.svg);
-        background-repeat: no-repeat;
-    }
-    .css-modal-details details[open] summary {
-        width: 47%;
-    }
-    .css-modal-details details[open] .cmc {
-        width: 47%;
-    }
-    .css-modal-details details .cmt {
-        font-size: 13px;
-    }
-
-    .swiper-slide:nth-of-type(3) .css-modal-details details[open] summary {
-        left: 566px;
-    }
-
-    .swiper-slide:nth-of-type(3) .css-modal-details details[open] .cmc {
-        left: 575px;
-    }
-
-    .swiper-slide:nth-of-type(4) .css-modal-details details[open] summary {
-        left: 852px;
-    }
-
-    .swiper-slide:nth-of-type(4) .css-modal-details details[open] .cmc {
-        left: 862px;
-    }
-
-    .swiper-slide:nth-of-type(5) .css-modal-details details[open] summary {
-        left: 1140px;
-    }
-
-    .swiper-slide:nth-of-type(5) .css-modal-details details[open] .cmc {
-        left: 1149px;
-    }
-
-    .swiper-slide:nth-of-type(6) .css-modal-details details[open] summary {
-        left: 1430px;
-    }
-
-    .swiper-slide:nth-of-type(6) .css-modal-details details[open] .cmc {
-        left: 1440px;
-    }
-
-    .swiper-slide:nth-of-type(7) .css-modal-details details[open] summary {
-        left: 1715px;
-    }
-
-    .swiper-slide:nth-of-type(7) .css-modal-details details[open] .cmc {
-        left: 1725px;
-    }
-
-    .swiper-slide:nth-of-type(8) .css-modal-details details[open] summary {
-        left: 2005px;
-    }
-
-    .swiper-slide:nth-of-type(8) .css-modal-details details[open] .cmc {
-        left: 2015px;
-    }
-
-    .swiper-slide:nth-of-type(9) .css-modal-details details[open] summary {
-        left: 2295px;
-    }
-
-    .swiper-slide:nth-of-type(9) .css-modal-details details[open] .cmc {
-        left: 2305px;
-    }
-
-    
-    .swiper-slide:nth-of-type(10) .css-modal-details details[open] summary {
-        left: 2575px;
-    }
-
-    .swiper-slide:nth-of-type(10) .css-modal-details details[open] .cmc {
-        left: 2585px;
-    }
-
-    
-    .swiper-slide:nth-of-type(11) .css-modal-details details[open] summary {
-        left: 2875px;
-    }
-
-    .swiper-slide:nth-of-type(11) .css-modal-details details[open] .cmc {
-        left: 2885px;
     }
 
     /*Duffbeer*/
@@ -986,12 +961,15 @@
         background-image: url(../img/svg/crestic.svg);
         background-repeat: no-repeat;
     }
+
     .css-modal-details details[open] summary {
         width: 100%;
     }
+
     .css-modal-details details[open] .cmc {
         width: 100%;
     }
+
     .css-modal-details details .cmt {
         font-size: 13px;
     }
@@ -1003,7 +981,7 @@
     .swiper-slide:nth-of-type(2) .css-modal-details details[open] .cmc {
         left: 290px;
     }
-    
+
     .swiper-slide:nth-of-type(3) .css-modal-details details[open] summary {
         left: 566px;
     }
@@ -1060,7 +1038,7 @@
         left: 2320px;
     }
 
-    
+
     .swiper-slide:nth-of-type(10) .css-modal-details details[open] summary {
         left: 2600px;
     }

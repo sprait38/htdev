@@ -618,7 +618,7 @@ main {
     flex-wrap: wrap;
     top: 0px;
     left: 0px;
-    height: 294px;
+    height: 294px !important;
 }
 
 .Duffeer_swiper-slide:nth-of-type(2) {
