@@ -553,61 +553,78 @@
 
     }
 
-    .mySwiper,
-    .swiper-wrapper {
+    .mySwiper {
         width: 545px;
         height: 284px;
-        top: 0px;
-        margin: 0 auto;
+        top: 113px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
     }
 
-    .slide:not(:last-child) {
+    .mySwiper-swiper-wrapper,
+    .Duffeer_swiper_wrapper {
+        top: 0px;
+        justify-content: flex-start;
+        width: 545px;
+        height: 284px;
+    }
+
+    .swiper-slide:not(:last-child) {
         margin-bottom: 0px;
     }
 
     .swiper-slide {
         width: 260px !important;
-        height: 294px;
+        height: 284px;
+    }
+
+    .swiper-slide:nth-of-type(1),
+    .Duffeer_swiper-slide:nth-of-type(1) {
+        top: 0px;
+        left: 0px;
     }
 
     .swiper-slide:nth-of-type(2) {
         top: 0px;
-        left: 295px;
+        left: 285px;
     }
 
     .swiper-slide:nth-of-type(3) {
         top: 0px;
-        left: 590px;
+        left: 570px;
     }
 
     .swiper-slide:nth-of-type(4) {
-        top: 363px;
-        left: 0px;
+        top: 0px;
+        left: 855px;
     }
 
     .swiper-slide:nth-of-type(5) {
-        top: 363px;
-        left: 295px;
+        top: 0px;
+        left: 1140px;
     }
 
     .swiper-slide:nth-of-type(6) {
-        top: 363px;
-        left: 590px;
+        top: 0px;
+        left: 1425px;
     }
 
     .swiper-slide:nth-of-type(7) {
-        top: 726px;
-        left: 0px;
+        top: 0px;
+        left: 1710px;
     }
 
     .swiper-slide:nth-of-type(8) {
-        top: 726px;
-        left: 295px;
+        top: 0px;
+        left: 1995px;
     }
 
     .swiper-slide:nth-of-type(9) {
-        top: 726px;
-        left: 590px;
+        top: 0px;
+        left: 2280px;
     }
 
     .swiper-button-next,
@@ -657,21 +674,17 @@
     }
 
     .swiper-button-next2 {
-        top: 56%;
-        right: 8px;
+        top: 60%;
+        right: 4px;
         left: auto;
     }
 
     .swiper-button-prev2 {
-        top: 56%;
+        top: 60%;
     }
 
     .swiper-pagination2 {
-        top: 470px;
-    }
-
-    .swiper-pagination {
-        display: block;
+        top: 480px !important;
     }
 
     /*Duffbeer*/
@@ -702,7 +715,6 @@
     }
 
     .Duffeer_swiper,
-    .mySwiper,
     .Duffbeer_h2,
     .Duffbeer_span {
         left: 20px;
@@ -733,25 +745,73 @@
         line-height: 22px;
     }
 
+    .Duffeer_swiper-slide:nth-of-type(2) {
+        left: 285px;
+        width: 260px !important;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(2) .Duffbeer_billet {
+        background: var(--primary-color-billet);
+        width: 260px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(2) .Duffbeer_billet .Duffbeer_billet_span {
+        text-align: left;
+        left: 10px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(3) {
+        left: 570px;
+        top: 0px;
+        width: 260px !important;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(3) .Duffberr_icon,
+    .Duffeer_swiper-slide:nth-of-type(3) .Duffbeer_billet .Duffbeer_billet_span {
+        left: 100px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(3) .Duffbeer_billet_span {
+        left: 55px;
+        width: 150px;
+        text-align: center;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(4) {
+        top: 0px;
+        left: 855px;
+        width: 260px !important;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(4) .Duffbeer_billet {
+        width: 260px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(5) {
+        top: 0px;
+        left: 1140px;
+        margin-bottom: 0px;
+    }
+
     .swiper-slide:nth-of-type(5) .Duffbeer_billet_span,
-    .swiper-slide:nth-of-type(8) .Duffbeer_billet_span {
+    .Duffeer_swiper-slide:nth-of-type(5) .Duffbeer_billet .Duffbeer_billet_span {
         text-align: center;
         left: 20px;
-        top: 178px;
-        width: 225px;
+        top: 14px;
     }
 
-    .swiper-slide:nth-of-type(5) .Duffberr_icon {
-        left: 95px;
+    .Duffeer_swiper-slide:nth-of-type(6) {
+        top: 0px;
+        left: 1425px;
+        width: 260px !important;
     }
 
-    .swiper-slide:nth-of-type(8) .Duffberr_icon_2 {
-        left: 55px;
+    .Duffberr_icon_2 {
+        left: 49px;
     }
 
-    .Duffeer_swiper-slide,
-    .Duffbeer_billet:not(:last-child) {
-        margin-right: 25px;
+    .Duffeer_swiper-slide:nth-of-type(6) .Duffbeer_billet_span {
+        left: 17px;
     }
 }
 
@@ -948,105 +1008,6 @@
         bottom: 10px;
     }
 
-    .css-modal-details details[open] .cmc:after {
-        content: "";
-        width: 25px;
-        height: 25px;
-        border: 6px solid #BFE2FF;
-        border-radius: 12px;
-        position: absolute;
-        z-index: 10;
-        top: 0px;
-        right: 20px;
-        background-image: url(../img/svg/crestic.svg);
-        background-repeat: no-repeat;
-    }
-
-    .css-modal-details details[open] summary {
-        width: 100%;
-    }
-
-    .css-modal-details details[open] .cmc {
-        width: 100%;
-    }
-
-    .css-modal-details details .cmt {
-        font-size: 13px;
-    }
-
-    .swiper-slide:nth-of-type(2) .css-modal-details details[open] summary {
-        left: 278px;
-    }
-
-    .swiper-slide:nth-of-type(2) .css-modal-details details[open] .cmc {
-        left: 290px;
-    }
-
-    .swiper-slide:nth-of-type(3) .css-modal-details details[open] summary {
-        left: 566px;
-    }
-
-    .swiper-slide:nth-of-type(3) .css-modal-details details[open] .cmc {
-        left: 575px;
-    }
-
-    .swiper-slide:nth-of-type(4) .css-modal-details details[open] summary {
-        left: 860px;
-    }
-
-    .swiper-slide:nth-of-type(4) .css-modal-details details[open] .cmc {
-        left: 870px;
-    }
-
-    .swiper-slide:nth-of-type(5) .css-modal-details details[open] summary {
-        left: 1149px;
-    }
-
-    .swiper-slide:nth-of-type(5) .css-modal-details details[open] .cmc {
-        left: 1158px;
-    }
-
-    .swiper-slide:nth-of-type(6) .css-modal-details details[open] summary {
-        left: 1441px;
-    }
-
-    .swiper-slide:nth-of-type(6) .css-modal-details details[open] .cmc {
-        left: 1451px;
-    }
-
-    .swiper-slide:nth-of-type(7) .css-modal-details details[open] summary {
-        left: 1731px;
-    }
-
-    .swiper-slide:nth-of-type(7) .css-modal-details details[open] .cmc {
-        left: 1741px;
-    }
-
-    .swiper-slide:nth-of-type(8) .css-modal-details details[open] summary {
-        left: 2019px;
-    }
-
-    .swiper-slide:nth-of-type(8) .css-modal-details details[open] .cmc {
-        left: 2029px;
-    }
-
-    .swiper-slide:nth-of-type(9) .css-modal-details details[open] summary {
-        left: 2310px;
-    }
-
-    .swiper-slide:nth-of-type(9) .css-modal-details details[open] .cmc {
-        left: 2320px;
-    }
-
-
-    .swiper-slide:nth-of-type(10) .css-modal-details details[open] summary {
-        left: 2600px;
-    }
-
-    .swiper-slide:nth-of-type(10) .css-modal-details details[open] .cmc {
-        left: 2610px;
-    }
-
 
     /*Duffbeer*/
 
@@ -1081,29 +1042,53 @@
         z-index: 3;
     }
 
-    .swiper-slide:nth-of-type(4) .Duffbeer_billet_span,
-    .swiper-slide:nth-of-type(7) .Duffbeer_billet_span {
+    .Duffeer_swiper {
+        position: absolute;
+        top: 128px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(2) {
+        left: 454px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(3) {
+        left: 454px;
+        top: 588px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(4) {
+        top: 294px;
+        left: 454px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(5) {
+        position: absolute;
+        top: 588px;
+        left: 1px;
+        margin-bottom: 0px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(6) {
+        top: 294px;
+        left: 160px;
+    }
+
+    .Duffeer_swiper-slide:nth-of-type(4) .Duffbeer_billet_span,
+    .Duffeer_swiper-slide:nth-of-type(7) .Duffbeer_billet_span {
         text-align: center;
         left: 20px;
         top: 178px;
         width: 225px;
     }
 
-    .swiper-slide:nth-of-type(5) .Duffbeer_billet_span,
-    .swiper-slide:nth-of-type(6) .Duffbeer_billet_span {
+    .Duffeer_swiper-slide:nth-of-type(5) .Duffbeer_billet_span,
+    .Duffeer_swiper-slide:nth-of-type(6) .Duffbeer_billet_span {
         text-align: center;
         left: 20px;
         top: 12px;
         width: 225px;
     }
 
-    .swiper-slide:nth-of-type(4) .Duffberr_icon {
-        left: 95px;
-    }
-
-    .swiper-slide:nth-of-type(7) .Duffberr_icon_2 {
-        left: 55px;
-    }
 
     .Duffbeer_vector {
         width: 107px;

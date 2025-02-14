@@ -1,423 +1,743 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/media.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <div class="container_header">
-        <picture class="header_img">
-          <source type="image/webp" srcset="./img/header/header.webp" media="(min-width: 1340px)" />
-          <source type="image/webp" srcset="./img/header/header_1024.webp" media="(min-width: 1020px)" />
-          <source type="image/png" srcset="./img/header/header_1024.png" media="(min-width: 1020px)" />
-          <source type="image/webp" srcset="./img/header/header_768.webp" media="(min-width: 700px)" />
-          <source srcset="./img/header/header_768.png" media="(min-width: 1019px)" />
-          <source type="image/webp" srcset="./img/header/header_320.webp" media="(min-width: 0px)" />
-          <source srcset="./img/header/header_320.png" media="(min-width: 0px)" />
-          <img src="./img/header/header.png" alt="фон заголовка" />
-        </picture>
-        <picture class="header_logo">
-          <source srcset="./img/logo.webp" media="(min-width: 1020px)" />
-          <source srcset="./img/logo_768.webp" media="(min-width: 320px)" />
-          <img src="./img/logo.png" alt="лого заголовка" />
-        </picture>
-        <h1 class="header_h1">Conecom</h1>
-        <span class="header_span">российское подразделение <br> французской группы DuffBeer</span>
-        <div class="header_vector"></div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="container hero_container">
-        <div class="hero_billet"></div>
-        <div class="hero_player">
-          <iframe width="545" height="365" src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1&mute=1">
-          </iframe>
+  <body>
+    <header>
+      <div class="container">
+        <div class="container_header">
+          <picture class="header_img">
+            <source
+              type="image/webp"
+              srcset="./img/header/header.webp"
+              media="(min-width: 1340px)"
+            />
+            <source
+              type="image/webp"
+              srcset="./img/header/header_1024.webp"
+              media="(min-width: 1020px)"
+            />
+            <source
+              type="image/png"
+              srcset="./img/header/header_1024.png"
+              media="(min-width: 1020px)"
+            />
+            <source
+              type="image/webp"
+              srcset="./img/header/header_768.webp"
+              media="(min-width: 700px)"
+            />
+            <source
+              srcset="./img/header/header_768.png"
+              media="(min-width: 1019px)"
+            />
+            <source
+              type="image/webp"
+              srcset="./img/header/header_320.webp"
+              media="(min-width: 0px)"
+            />
+            <source
+              srcset="./img/header/header_320.png"
+              media="(min-width: 0px)"
+            />
+            <img src="./img/header/header.png" alt="фон заголовка" />
+          </picture>
+          <picture class="header_logo">
+            <source srcset="./img/logo.webp" media="(min-width: 1020px)" />
+            <source srcset="./img/logo_768.webp" media="(min-width: 320px)" />
+            <img src="./img/logo.png" alt="лого заголовка" />
+          </picture>
+          <h1 class="header_h1">Conecom</h1>
+          <span class="header_span"
+            >российское подразделение <br />
+            французской группы DuffBeer</span
+          >
+          <div class="header_vector"></div>
         </div>
-        <div class="hero_vector"></div>
-        <div class="hero_h3">лет нашего опыта</div>
-        <p class="hero_p">
-          DuffBeer — один из мировых лидеров по производству дрожжей и других
-          продуктов ферментации. И нам нужна сильная команда профессионалов и
-          единомышленников, которые будут стремиться развиваться вместе с
-          DuffBeer.
-        </p>
-        <p class="hero_p">
-          Мы всегда рады принять талантливых и целеустремленных людей в нашу
-          дружную команду! Мы ценим каждого своего сотрудника и стремимся
-          предоставить всем равные возможности в развитии <br />
-          и совершенств.
-        </p>
       </div>
-    </section>
-    <section class="work">
-      <div class="container work_container">
-        <div class="work_billet">
-          <div class="work_kavichka"></div>
-          <p class="work_p">
-            Каждое 3-е хлебобулочное изделие в мире произведено <br />
-            с использованием продукции DuffBeer
-          </p>
-          <div class="work_vector"></div>
-        </div>
-        <picture class="work_image">
-          <source srcset="./img/work/work.webp" type="image/webp" media="(min-width: 1340px)" />
-          <source srcset="./img/work/work_1024.webp" media="(min-width: 1020px)" type="image/webp" />
-          <source srcset="./img/work/work_1024.png" media="(min-width: 1020px)" />
-          <source srcset="./img/work/work_768.webp" media="(min-width: 700px)" type="image/webp" />
-          <source srcset="./img/work/work_768.png" media="(min-width: 700px)" />
-          <source srcset="./img/work/work_320.webp" media="(min-width: 0px)" type="image/webp" />
-          <source srcset="./img/work/work_320.png" media="(min-width: 0px)" />
-          <img src="./img/work/work.png" alt="work_img" />
-        </picture>
-        <div class="work_content">
-          <div class="work_content_headline">
-            <span class="work_content_headline_span"></span>
-            <span class="work_content_headline_span"></span>
-            <span class="work_content_headline_span_text">МИССИЯ DuffBeer</span>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero_container">
+          <div class="hero_billet"></div>
+          <div class="hero_player">
+            <iframe
+              width="545"
+              height="365"
+              src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1&mute=1"
+            >
+            </iframe>
           </div>
-          <span class="work_content_span">работать вместе, чтобы лучше накормить <br> и сохранить планету</span>
-          <button class="work_content_button">
-            <span class="work_content_button_span">Перейти на сайт</span>
-          </button>
+          <div class="hero_vector"></div>
+          <div class="hero_h3">лет нашего опыта</div>
+          <p class="hero_p">
+            DuffBeer — один из мировых лидеров по производству дрожжей и других
+            продуктов ферментации. И нам нужна сильная команда профессионалов и
+            единомышленников, которые будут стремиться развиваться вместе с
+            DuffBeer.
+          </p>
+          <p class="hero_p">
+            Мы всегда рады принять талантливых и целеустремленных людей в нашу
+            дружную команду! Мы ценим каждого своего сотрудника и стремимся
+            предоставить всем равные возможности в развитии <br />
+            и совершенств.
+          </p>
         </div>
-      </div>
-    </section>
-    <section class="about">
-      <div class="container about_container">
-        <h2 class="about_h2">Наши преимущества</h2>
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source srcset="./img/row/row_1.webp" type="image/webp" media="(min-width: 1340px)" />
-                <source srcset="./img/row/row_1_1024.webp" media="(min-width: 320px)" type="image/webp" />
-                <source srcset="./img/row/row_1_1024.png" media="(min-width: 320px)" />
-                <img src="./img/row/row_1.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Уверенность <br />
-                в завтрашнем дне
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="1"></div>
+      </section>
+      <section class="work">
+        <div class="container work_container">
+          <div class="work_billet">
+            <div class="work_kavichka"></div>
+            <p class="work_p">
+              Каждое 3-е хлебобулочное изделие в мире произведено <br />
+              с использованием продукции DuffBeer
+            </p>
+            <div class="work_vector"></div>
+          </div>
+          <picture class="work_image">
+            <source
+              srcset="./img/work/work.webp"
+              type="image/webp"
+              media="(min-width: 1340px)"
+            />
+            <source
+              srcset="./img/work/work_1024.webp"
+              media="(min-width: 1020px)"
+              type="image/webp"
+            />
+            <source
+              srcset="./img/work/work_1024.png"
+              media="(min-width: 1020px)"
+            />
+            <source
+              srcset="./img/work/work_768.webp"
+              media="(min-width: 700px)"
+              type="image/webp"
+            />
+            <source
+              srcset="./img/work/work_768.png"
+              media="(min-width: 700px)"
+            />
+            <source
+              srcset="./img/work/work_320.webp"
+              media="(min-width: 0px)"
+              type="image/webp"
+            />
+            <source srcset="./img/work/work_320.png" media="(min-width: 0px)" />
+            <img src="./img/work/work.png" alt="work_img" />
+          </picture>
+          <div class="work_content">
+            <div class="work_content_headline">
+              <span class="work_content_headline_span"></span>
+              <span class="work_content_headline_span"></span>
+              <span class="work_content_headline_span_text"
+                >МИССИЯ DuffBeer</span
+              >
             </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_2.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_2_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_2_1024.png" media="(min-width: 320px)" />
-                <img src="./img/row/row_2.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Безопасность на рабочем месте – приоритет №1
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="2">
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_3.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_3_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_3_1024.png" media="(min-width: 320px)" />
-                <img src="./img/row/row_3.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Стабильная заработная <br />
-                плата
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="3"></div>
-            </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_4.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_4_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_4_1024.png" media="(max-width: 320px)" />
-                <img src="./img/row/row_4.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">Заботимся о здоровье сотрудников</p>
-              <div class="about_row_icon js-open-modal" data-modal="4"></div>
-            </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_5.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_5_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_5_1024.png" media="(min-width: 320px)" />
-                <img src="./img/row/row_5.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Предоставление удобной спецодежды и СИЗ для производственного
-                персонала
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="5"></div>
-            </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_6.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_6_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_6_1024.png" media="(min-width: 320px)" />
-                <img src="./img/row/row_6.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Обучение: различные программы обучения и профессиональные
-                тренинги
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="6"></div>
-            </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_7.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_7_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_7_1024.png" media="(min-width: 320px)" />
-                <img src="./img/row/row_7.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Возможности для реализации творческого потенциала
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="7"></div>
-            </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_8.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_8_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_8_1024.png" media="(min-width: 320px)" />
-                <img src="./img/row/row_8.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Мы - семейная компания и любим проводить время вместе
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="8"></div>
-            </div>
-            <div class="swiper-slide">
-              <picture class="about_row_img">
-                <source type="image/webp" srcset="./img/row/row_9.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/row/row_9_1024.webp" media="(min-width: 320px)" />
-                <source srcset="./img/row/row_9_1024.png" media="(max-width: 1339px)" />
-                <img src="./img/row/row_9.png" alt="about_row_img" />
-              </picture>
-              <p class="about_row_p">
-                Мы - социально ответственная компания и заботимся об
-                окружающих
-              </p>
-              <div class="about_row_icon js-open-modal" data-modal="9"></div>
-            </div>
+            <span class="work_content_span"
+              >работать вместе, чтобы лучше накормить <br />
+              и сохранить планету</span
+            >
+            <button class="work_content_button">
+              <span class="work_content_button_span">Перейти на сайт</span>
+            </button>
           </div>
         </div>
-        <div class="swiper-pagination swiper-pagination1"></div>
-        <div class="swiper-button-next swiper-button-next2"></div>
-        <div class="swiper-button-prev swiper-button-prev2"></div>
-      </div>
-      <div class="modal" data-modal="1">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            ООО «Conecom», российское подразделение французского концерна DuffBeer. Мы компания,
-            которая честно ведет свой бизнес на территории РФ, соблюдая законодательство и гарантируя стабильность
-            и уверенность в завтрашнем дне.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="2">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Вопросам безопасности и качества пищевой продукции в нашей компании уделяется повышенное внимание. Все
-            производства группы DuffBeer в России постоянно работают над улучшением процессов и стремятся сделать все
-            возможное, чтобы рабочий процесс был максимально безопасным и комфортным.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="3">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Мы обеспечиваем нашим сотрудникам стабильную заработную плату в соответствии с рынком
-            региона. Средний стаж работы в нашей компании – 7 лет.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="4">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Каждый сотрудник в нашей компании обеспечен полисом добровольного медицинского страхования. Кроме того, на
-            каждом заводе есть медицинский пункт для сотрудников. Осуществляется страхование от несчастных случаев с
-            первого дня работы.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="5">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Мы предоставляем удобные СИЗ и спецодежду и в случае износа или порчи обмениваются на новые.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="6">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Мы уделяем много внимания развитию наших сотрудников. В компании работает Внутренний центр обучений и
-            ежегодно проводится большое количество обучающих мероприятий как локально на заводах, так и в головном офисе
-            DuffBeer во Франции.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="7">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Мы ставим перед собой амбициозные и интересные цели, а реализация задач является командной работой
-            сотрудников из различных подразделений. Мы также принимаем активное участие в работе над
-            кросс-функциональными проектам с коллегами из других стран присутствия DuffBeer.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="8">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Ежегодно мы проводим корпоративные мероприятия не только для наших сотрудников, но и для семей наших
-            сотрудников. А корпоративные подарки для детей сотрудников – наша добрая предновогодняя традиция.
-          </p>
-        </div>
-      </div>
-      <div class="modal" data-modal="9">
-        <!--   Svg иконка для закрытия окна  -->
-        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path
-            d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-        </svg>
-        <div class="modal_content">
-          <p class="modal_content_p">
-            Наша миссия лежит в основе социально-корпоративной ответственности. Мы ведем свою деятельность в
-            соответствии с тремя основными правилами: мы заботимся о людях; наша деятельность устойчива по своей
-            природе; мы заботимся об окружающей среде.
-          </p>
-        </div>
-      </div>
-      <!-- Подложка под модальным окном -->
-      <div class="overlay js-overlay-modal"></div>
-    </section>
-    <section class="Duffbeer">
-      <div class="container Duffbeer_container">
-        <h2 class="Duffbeer_h2">DuffBeer</h2>
-        <div class="Duffbeer_vector"></div>
-        <div class="Duffbeer_vector"></div>
-        <span class="Duffbeer_span">Ключевой мировой игрок <br> в области ферментации</span>
-        <div class="swiper Duffeer_swiper">
-          <div class="swiper-wrapper Duffeer_swiper_wrapper">
-            <div class="swiper-slide Duffeer_swiper-slide">
-              <picture class="Duffbeer_image">
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_1024.webp" media="(min-width: 1020px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_1024.png" media="(min-width: 1020px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_768.webp" media="(min-width: 320px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_768.png" media="(min-width: 320px)" />
-                <img src="./img/DuffBeer/DuffBeer.png" alt="DuffBeer_img" />
-              </picture>
-              <div class="Duffbeer_billet">
-                <span class="Duffbeer_billet_span">10 700+ сотрудников</span>
+      </section>
+      <section class="about">
+        <div class="container about_container">
+            <h2 class="about_h2">Наши преимущества</h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper mySwiper-swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      srcset="./img/row/row_1.webp"
+                      type="image/webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      srcset="./img/row/row_1_1024.webp"
+                      media="(min-width: 320px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./img/row/row_1_1024.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/row/row_1.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Уверенность <br />
+                    в завтрашнем дне
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="1"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_2.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_2_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_2_1024.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/row/row_2.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Безопасность на рабочем месте – приоритет №1
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="2"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_3.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_3_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_3_1024.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/row/row_3.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Стабильная заработная <br />
+                    плата
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="3"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_4.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_4_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_4_1024.png"
+                      media="(max-width: 320px)"
+                    />
+                    <img src="./img/row/row_4.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">Заботимся о здоровье сотрудников</p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="4"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_5.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_5_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_5_1024.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/row/row_5.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Предоставление удобной спецодежды и СИЗ для
+                    производственного персонала
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="5"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_6.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_6_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_6_1024.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/row/row_6.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Обучение: различные программы обучения и профессиональные
+                    тренинги
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="6"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_7.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_7_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_7_1024.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/row/row_7.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Возможности для реализации творческого потенциала
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="7"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_8.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_8_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_8_1024.png"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./img/row/row_8.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Мы - семейная компания и любим проводить время вместе
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="8"
+                  ></div>
+                </div>
+                <div class="swiper-slide">
+                  <picture class="about_row_img">
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_9.webp"
+                      media="(min-width: 1340px)"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset="./img/row/row_9_1024.webp"
+                      media="(min-width: 320px)"
+                    />
+                    <source
+                      srcset="./img/row/row_9_1024.png"
+                      media="(max-width: 1339px)"
+                    />
+                    <img src="./img/row/row_9.png" alt="about_row_img" />
+                  </picture>
+                  <p class="about_row_p">
+                    Мы - социально ответственная компания и заботимся об
+                    окружающих
+                  </p>
+                  <div
+                    class="about_row_icon js-open-modal"
+                    data-modal="9"
+                  ></div>
+                </div>
               </div>
             </div>
-            <div class="swiper-slide Duffeer_swiper-slide">
-              <picture class="Duffbeer_image">
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_2.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_2_1024.webp" media="(min-width: 1020px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_2_1024.png" media="(min-width: 1020px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_2_768.webp" media="(min-width: 320px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_2_768.png" media="(min-width: 320px)" />
-                <img src="./img/DuffBeer/DuffBeer_2.png" alt="DuffBeer_img" />
-              </picture>
-              <div class="Duffbeer_billet">
-                <span class="Duffbeer_billet_span">570 экспертов R&D</span>
-              </div>
-            </div>
-            <div class="swiper-slide Duffeer_swiper-slide">
-              <div class="Duffberr_icon"></div>
-              <span class="Duffbeer_billet_span">направления деятельности</span>
-            </div>
-            <div class="swiper-slide Duffeer_swiper-slide">
-              <picture class="Duffbeer_image">
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_3.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_3_1024.webp" media="(min-width: 1020px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_3_1024.png" media="(min-width: 1020px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_3_768.webp" media="(min-width: 320px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_3_768.png" media="(min-width: 320px)" />
-                <img src="./img/DuffBeer/DuffBeer_3.png" alt="DuffBeer_img" />
-              </picture>
-              <div class="Duffbeer_billet">
-                <span class="Duffbeer_billet_span">25+ лет в России</span>
-              </div>
-            </div>
-            <div class="swiper-slide Duffeer_swiper-slide">
-              <picture class="Duffbeer_image">
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_4.webp" media="(min-width: 1340px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_4_1024.webp" media="(min-width: 1020px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_4_1024.png" media="(min-width: 1020px)" />
-                <source type="image/webp" srcset="./img/DuffBeer/DuffBeer_4_768.webp" media="(min-width: 320px)" />
-                <source srcset="./img/DuffBeer/DuffBeer_4_768.png" media="(min-width: 320px)" />
-                <img src="./img/DuffBeer/DuffBeer_4.png" alt="DuffBeer_img" />
-              </picture>
-              <div class="Duffbeer_billet">
-                <span class="Duffbeer_billet_span">Филиалы в 50 странах</span>
-              </div>
-            </div>
-            <div class="swiper-slide Duffeer_swiper-slide">
-              <div class="Duffberr_icon_2"></div>
-              <span class="Duffbeer_billet_span">лет опыта <br />на рынке хлебопечения</span>
+            <div class="swiper-pagination swiper-pagination1"></div>
+            <div class="swiper-button-next swiper-button-next2"></div>
+            <div class="swiper-button-prev swiper-button-prev2"></div>
+          </div>
+          <div class="modal" data-modal="1">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                ООО «Conecom», российское подразделение французского концерна
+                DuffBeer. Мы компания, которая честно ведет свой бизнес на
+                территории РФ, соблюдая законодательство и гарантируя
+                стабильность и уверенность в завтрашнем дне.
+              </p>
             </div>
           </div>
+          <div class="modal" data-modal="2">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Вопросам безопасности и качества пищевой продукции в нашей
+                компании уделяется повышенное внимание. Все производства группы
+                DuffBeer в России постоянно работают над улучшением процессов и
+                стремятся сделать все возможное, чтобы рабочий процесс был
+                максимально безопасным и комфортным.
+              </p>
+            </div>
+          </div>
+          <div class="modal" data-modal="3">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Мы обеспечиваем нашим сотрудникам стабильную заработную плату в
+                соответствии с рынком региона. Средний стаж работы в нашей
+                компании – 7 лет.
+              </p>
+            </div>
+          </div>
+          <div class="modal" data-modal="4">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Каждый сотрудник в нашей компании обеспечен полисом
+                добровольного медицинского страхования. Кроме того, на каждом
+                заводе есть медицинский пункт для сотрудников. Осуществляется
+                страхование от несчастных случаев с первого дня работы.
+              </p>
+            </div>
+          </div>
+          <div class="modal" data-modal="5">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Мы предоставляем удобные СИЗ и спецодежду и в случае износа или
+                порчи обмениваются на новые.
+              </p>
+            </div>
+          </div>
+          <div class="modal" data-modal="6">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Мы уделяем много внимания развитию наших сотрудников. В компании
+                работает Внутренний центр обучений и ежегодно проводится большое
+                количество обучающих мероприятий как локально на заводах, так и
+                в головном офисе DuffBeer во Франции.
+              </p>
+            </div>
+          </div>
+          <div class="modal" data-modal="7">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Мы ставим перед собой амбициозные и интересные цели, а
+                реализация задач является командной работой сотрудников из
+                различных подразделений. Мы также принимаем активное участие в
+                работе над кросс-функциональными проектам с коллегами из других
+                стран присутствия DuffBeer.
+              </p>
+            </div>
+          </div>
+          <div class="modal" data-modal="8">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Ежегодно мы проводим корпоративные мероприятия не только для
+                наших сотрудников, но и для семей наших сотрудников. А
+                корпоративные подарки для детей сотрудников – наша добрая
+                предновогодняя традиция.
+              </p>
+            </div>
+          </div>
+          <div class="modal" data-modal="9">
+            <!--   Svg иконка для закрытия окна  -->
+            <svg
+              class="modal__cross js-modal-close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+              />
+            </svg>
+            <div class="modal_content">
+              <p class="modal_content_p">
+                Наша миссия лежит в основе
+                социально-корпоративной ответственности. Мы ведем свою
+                деятельность в соответствии с тремя основными правилами: мы
+                заботимся о людях; наша деятельность устойчива по своей природе;
+                мы заботимся об окружающей среде.
+              </p>
+            </div>
+          </div>
+          <!-- Подложка под модальным окном -->
+          <div class="overlay js-overlay-modal"></div>
+      </section>
+      <section class="Duffbeer">
+        <div class="container Duffbeer_container">
+          <h2 class="Duffbeer_h2">DuffBeer</h2>
+          <div class="Duffbeer_vector"></div>
+          <div class="Duffbeer_vector"></div>
+          <span class="Duffbeer_span"
+            >Ключевой мировой игрок <br />
+            в области ферментации</span
+          >
+          <div class="swiper Duffeer_swiper">
+            <div class="swiper-wrapper Duffeer_swiper_wrapper">
+              <div class="swiper-slide Duffeer_swiper-slide">
+                <picture class="Duffbeer_image">
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer.webp"
+                    media="(min-width: 1340px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_1024.webp"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_1024.png"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_768.webp"
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_768.png"
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./img/DuffBeer/DuffBeer.png" alt="DuffBeer_img" />
+                </picture>
+                <div class="Duffbeer_billet">
+                  <span class="Duffbeer_billet_span">10 700+ сотрудников</span>
+                </div>
+              </div>
+              <div class="swiper-slide Duffeer_swiper-slide">
+                <picture class="Duffbeer_image">
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_2.webp"
+                    media="(min-width: 1340px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_2_1024.webp"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_2_1024.png"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_2_768.webp"
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_2_768.png"
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./img/DuffBeer/DuffBeer_2.png" alt="DuffBeer_img" />
+                </picture>
+                <div class="Duffbeer_billet">
+                  <span class="Duffbeer_billet_span">570 экспертов R&D</span>
+                </div>
+              </div>
+              <div class="swiper-slide Duffeer_swiper-slide">
+                <div class="Duffberr_icon"></div>
+                <span class="Duffbeer_billet_span"
+                  >направления деятельности</span
+                >
+              </div>
+              <div class="swiper-slide Duffeer_swiper-slide">
+                <picture class="Duffbeer_image">
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_3.webp"
+                    media="(min-width: 1340px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_3_1024.webp"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_3_1024.png"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_3_768.webp"
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_3_768.png"
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./img/DuffBeer/DuffBeer_3.png" alt="DuffBeer_img" />
+                </picture>
+                <div class="Duffbeer_billet">
+                  <span class="Duffbeer_billet_span">25+ лет в России</span>
+                </div>
+              </div>
+              <div class="swiper-slide Duffeer_swiper-slide">
+                <picture class="Duffbeer_image">
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_4.webp"
+                    media="(min-width: 1340px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_4_1024.webp"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_4_1024.png"
+                    media="(min-width: 1020px)"
+                  />
+                  <source
+                    type="image/webp"
+                    srcset="./img/DuffBeer/DuffBeer_4_768.webp"
+                    media="(min-width: 320px)"
+                  />
+                  <source
+                    srcset="./img/DuffBeer/DuffBeer_4_768.png"
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./img/DuffBeer/DuffBeer_4.png" alt="DuffBeer_img" />
+                </picture>
+                <div class="Duffbeer_billet">
+                  <span class="Duffbeer_billet_span">Филиалы в 50 странах</span>
+                </div>
+              </div>
+              <div class="swiper-slide Duffeer_swiper-slide">
+                <div class="Duffberr_icon_2"></div>
+                <span class="Duffbeer_billet_span"
+                  >лет опыта <br />на рынке хлебопечения</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination2"></div>
+          <div class="swiper-button-next swiper-button-next"></div>
+          <div class="swiper-button-prev swiper-button-prev"></div>
         </div>
-        <div class="swiper-pagination swiper-pagination2"></div>
-        <div class="swiper-button-next swiper-button-next"></div>
-        <div class="swiper-button-prev swiper-button-prev"></div>
-      </div>
-    </section>
-  </main>
-  <script src="./js/swiper-bundle.min.js"></script>
-  <script src="./js/index.js"></script>
-</body>
-
+      </section>
+    </main>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
