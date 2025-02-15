@@ -1010,6 +1010,22 @@
         bottom: 10px;
     }
 
+    .modal {
+        width: 275px;
+        height: 230px;
+        padding: 20px 20px 32px 20px;
+    }
+
+    .modal__cross {
+        top: 250px;
+    }
+
+    .modal_content {
+        width: 278px;
+    }
+    .modal_content_p {
+        line-height: 27px;
+    }
 
     /*Duffbeer*/
 
